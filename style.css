@@ -49,6 +49,7 @@ body {
     border-radius: 8px;
     height: auto;
     padding: 10px;
+    border: none;
 }
 
 ul {
@@ -119,4 +120,60 @@ ul {
 
 .window {
     flex: 1;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 250px;
+    height: 180px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-by {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+#button2 {
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.action-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
