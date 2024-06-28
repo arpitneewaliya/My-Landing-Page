@@ -8,56 +8,85 @@ body {
     margin: 0;
 }
 
+.divisions {
+    height: 500px;
+}
+
+.footer {
+    height: 60px;
+}
+
 .header {
     display: flex;
     background-color: #1f2937;
-    /* justify-content: space-around; */
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-/* Styles the logo "Header Logo" */
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    /* margin-bottom: 100px; */
+    font-weight: bold;
 }
 
-/* Styles the hero main text "this website is awesome" */
 .awesome {
-    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
 }
 
-/* Styles the hero secondary text */
 .hero2 {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-/* Styles the first "sign-up" button*/
 #button1 {
     background-color: #3882f6;
     color: #f9faf8;
+    width: 100px;
+    border-radius: 8px;
+    height: auto;
+    padding: 10px;
 }
 
-/* Styles the list of links in the header section on top of the webpage*/
-.right ul {
-    margin: 0;
-    padding: 0;
+ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
-    color: #f9faf8;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    margin-bottom: 120px;
 }
 
 .img-holder {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    color: #e5e7eb;
+    height: 250px;
+    background-color: #6d747d;
 }
 
-/* Makes both the divs occupy equal space */
 .left,
 .right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo,
+.hero1 {
+    flex: auto;
+}
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 30px;
 }
 
